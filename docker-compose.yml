@@ -10,11 +10,13 @@ services:
         volumes:
             - data:/var/lib/odoo
             - ./external-addons:/odoo/external-addons
+        restart: always
     postgres:
         image: postgres:13
         env_file: .env
         volumes:
             - db:/var/lib/postgresql/data/pgdata
+        restart: always
 volumes:
     data:
     db:
