@@ -9,7 +9,7 @@ services:
             - "8069:8069"
         volumes:
             - data:/var/lib/odoo
-            - ./external-addons:/odoo/external-addons
+            - ../external-addons:/mnt/extra-addons
         restart: always
     postgres:
         image: postgres:13
