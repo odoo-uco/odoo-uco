@@ -4,6 +4,10 @@
 
 El proyecto Odoo-Uco es una solución basada en Docker que permite desplegar una instancia del sistema ERP/CRM Odoo 16.0, de forma que se pueda utilizar como plantilla para los trabajos de seminario de Sistemas de Información de Ingeniería Informática de la Universidad de Córdoba.
 
+<p align="center">
+  <img src="./images/odoo-uco.png" alt="Texto alternativo" style="max-width: 400px; max-height: 300px; border: 2px solid black;">
+</p>
+
 ## Instalación
 
 Para instalar y ejecutar este proyecto en tu entorno local, sigue estos pasos:
